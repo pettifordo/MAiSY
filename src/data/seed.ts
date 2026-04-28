@@ -18,22 +18,15 @@ export const SEED_TEAM: TeamMember[] = [
 ];
 
 export const SEED_DEALS: Deal[] = [
+  // ─── Existing deals ───────────────────────────────────────────────────────
   {
     id: 'd1',
     name: 'ChemCo Solutions',
-    description: 'UK-based specialty chemicals manufacturer with strong market position in high-performance adhesives for automotive and aerospace sectors. Long-standing customer relationships with tier-1 OEMs.',
+    description: 'UK-based specialty chemicals manufacturer with a strong market position in high-performance adhesives for automotive and aerospace sectors. Long-standing customer relationships with tier-1 OEMs. Two new product lines in development targeting next-generation EV battery assembly.',
     sector: 'Adhesives & Sealants',
     geography: 'UK (West Midlands)',
     stageId: 'closing',
-    financials: {
-      revenue: 87.4,
-      ebitda: 18.2,
-      ev: 127.0,
-      ebitdaMargin: 20.8,
-      revenueGrowth: 8.3,
-      netDebt: 12.5,
-      year: 2024,
-    },
+    financials: { revenue: 87.4, ebitda: 18.2, ev: 127.0, ebitdaMargin: 20.8, revenueGrowth: 8.3, netDebt: 12.5, year: 2024 },
     ownerIds: ['u2', 'u4'],
     advisors: 'Rothschild (sell-side), Linklaters (legal)',
     ownership: 'PE-backed (Bridgepoint)',
@@ -53,19 +46,11 @@ export const SEED_DEALS: Deal[] = [
   {
     id: 'd2',
     name: 'Polyrex Advanced Materials',
-    description: 'German polymer processing group producing engineering thermoplastics for medical devices and electronics. ISO 13485 certified. Strong IP in micro-injection moulding.',
+    description: 'German polymer processing group producing engineering thermoplastics for medical devices and electronics. ISO 13485 certified. Strong IP in micro-injection moulding. Family-owned for 45 years with a highly experienced management team and low employee turnover.',
     sector: 'Polymer Processing',
     geography: 'Germany (Bavaria)',
     stageId: 'loi',
-    financials: {
-      revenue: 54.2,
-      ebitda: 11.8,
-      ev: 95.0,
-      ebitdaMargin: 21.8,
-      revenueGrowth: 12.1,
-      netDebt: 8.2,
-      year: 2024,
-    },
+    financials: { revenue: 54.2, ebitda: 11.8, ev: 95.0, ebitdaMargin: 21.8, revenueGrowth: 12.1, netDebt: 8.2, year: 2024 },
     ownerIds: ['u1', 'u3'],
     advisors: 'Lazard (sell-side), Freshfields (legal)',
     ownership: 'Family-owned (2nd generation)',
@@ -84,19 +69,11 @@ export const SEED_DEALS: Deal[] = [
   {
     id: 'd3',
     name: 'BioAg Technologies',
-    description: 'Scottish agrochemical formulation business specialising in biopesticide and bio-stimulant products. Growing regulatory tailwinds from EU Green Deal. 30% revenues from export markets.',
+    description: 'Scottish agrochemical formulation business specialising in biopesticide and bio-stimulant products. Growing regulatory tailwinds from EU Green Deal and F2F Strategy. 30% revenues from export markets across Europe and North America. Proprietary slow-release encapsulation technology.',
     sector: 'Agrochemicals',
     geography: 'UK (Scotland)',
     stageId: 'diligence',
-    financials: {
-      revenue: 32.6,
-      ebitda: 6.4,
-      ev: 52.0,
-      ebitdaMargin: 19.6,
-      revenueGrowth: 22.5,
-      netDebt: 2.1,
-      year: 2024,
-    },
+    financials: { revenue: 32.6, ebitda: 6.4, ev: 52.0, ebitdaMargin: 19.6, revenueGrowth: 22.5, netDebt: 2.1, year: 2024 },
     ownerIds: ['u2'],
     advisors: 'Peel Hunt (sell-side)',
     ownership: 'Founder-led',
@@ -114,19 +91,11 @@ export const SEED_DEALS: Deal[] = [
   {
     id: 'd4',
     name: 'Nordex Coatings Group',
-    description: 'Scandinavian industrial coatings business with operations across Norway, Sweden and Denmark. Leading market position in marine and offshore protective coatings. EBITDA expansion driven by premiumisation.',
+    description: 'Scandinavian industrial coatings business with operations across Norway, Sweden and Denmark. Leading market position in marine and offshore protective coatings. EBITDA expansion driven by premiumisation toward solvent-free and waterborne systems ahead of regulatory change.',
     sector: 'Industrial Coatings',
     geography: 'Norway / Scandinavia',
     stageId: 'nda',
-    financials: {
-      revenue: 112.3,
-      ebitda: 19.6,
-      ev: 165.0,
-      ebitdaMargin: 17.5,
-      revenueGrowth: 5.8,
-      netDebt: 24.0,
-      year: 2024,
-    },
+    financials: { revenue: 112.3, ebitda: 19.6, ev: 165.0, ebitdaMargin: 17.5, revenueGrowth: 5.8, netDebt: 24.0, year: 2024 },
     ownerIds: ['u3', 'u4'],
     advisors: 'Carnegie (sell-side)',
     ownership: 'Listed — take-private',
@@ -143,19 +112,11 @@ export const SEED_DEALS: Deal[] = [
   {
     id: 'd5',
     name: 'Finetech Synthesis',
-    description: 'Belgian fine chemicals CDMO serving pharma and agrochemical customers. Multi-step synthesis capabilities up to kilo-scale. EMA GMP certified. Strong repeat business from top-10 pharma accounts.',
+    description: 'Belgian fine chemicals CDMO serving pharma and agrochemical customers. Multi-step synthesis capabilities up to kilo-scale. EMA GMP certified with a strong track record of regulatory inspections. Repeat business from five top-10 global pharma accounts representing 60% of revenue.',
     sector: 'Fine Chemicals',
     geography: 'Belgium',
     stageId: 'prospect',
-    financials: {
-      revenue: 28.4,
-      ebitda: 5.9,
-      ev: 48.0,
-      ebitdaMargin: 20.8,
-      revenueGrowth: 9.4,
-      netDebt: 1.8,
-      year: 2024,
-    },
+    financials: { revenue: 28.4, ebitda: 5.9, ev: 48.0, ebitdaMargin: 20.8, revenueGrowth: 9.4, netDebt: 1.8, year: 2024 },
     ownerIds: ['u1'],
     advisors: 'ING Corporate Finance (potential)',
     ownership: 'MBO team',
@@ -164,26 +125,16 @@ export const SEED_DEALS: Deal[] = [
     nextActionDate: '2025-02-05',
     createdAt: '2025-01-08T09:00:00Z',
     updatedAt: '2025-01-28T08:30:00Z',
-    stageHistory: [
-      { stageId: 'prospect', enteredAt: '2025-01-08T09:00:00Z' },
-    ],
+    stageHistory: [{ stageId: 'prospect', enteredAt: '2025-01-08T09:00:00Z' }],
   },
   {
     id: 'd6',
     name: 'SpecMat Holdings',
-    description: 'UK high-performance materials group producing specialty films and laminates for flexible electronics and EV battery applications. Strong growth driven by EV supply chain expansion.',
+    description: 'UK high-performance materials group producing specialty films and laminates for flexible electronics and EV battery applications. Strong growth driven by EV supply chain expansion and content growth per vehicle. Proprietary coating process delivering best-in-class thermal stability.',
     sector: 'Performance Materials',
     geography: 'UK (Cheshire)',
     stageId: 'won',
-    financials: {
-      revenue: 67.8,
-      ebitda: 14.9,
-      ev: 110.0,
-      ebitdaMargin: 22.0,
-      revenueGrowth: 18.2,
-      netDebt: 9.6,
-      year: 2023,
-    },
+    financials: { revenue: 67.8, ebitda: 14.9, ev: 110.0, ebitdaMargin: 22.0, revenueGrowth: 18.2, netDebt: 9.6, year: 2023 },
     ownerIds: ['u2', 'u3'],
     advisors: 'Goldman Sachs (sell-side), Clifford Chance (legal)',
     ownership: 'PE-backed (Cinven) — exited',
@@ -204,19 +155,11 @@ export const SEED_DEALS: Deal[] = [
   {
     id: 'd7',
     name: 'Chemtek Intermediates',
-    description: 'Dutch specialty chemical intermediates producer. Process safety concerns flagged during diligence led to walk-away.',
+    description: 'Dutch specialty chemical intermediates producer. Process safety concerns flagged during diligence led to walk-away. Legacy HSE incidents at Rotterdam site and seller unwillingness to provide meaningful indemnity cover were key factors.',
     sector: 'Specialty Chemicals',
     geography: 'Netherlands',
     stageId: 'dead',
-    financials: {
-      revenue: 41.0,
-      ebitda: 7.2,
-      ev: 58.0,
-      ebitdaMargin: 17.6,
-      revenueGrowth: 2.1,
-      netDebt: 6.5,
-      year: 2024,
-    },
+    financials: { revenue: 41.0, ebitda: 7.2, ev: 58.0, ebitdaMargin: 17.6, revenueGrowth: 2.1, netDebt: 6.5, year: 2024 },
     ownerIds: ['u3'],
     advisors: 'Rabobank (sell-side)',
     ownership: 'Corporate carve-out',
@@ -232,6 +175,155 @@ export const SEED_DEALS: Deal[] = [
       { stageId: 'dead', enteredAt: '2024-11-30T17:00:00Z' },
     ],
   },
+
+  // ─── New deals ────────────────────────────────────────────────────────────
+  {
+    id: 'd8',
+    name: 'Hexion Surface Technologies',
+    description: 'Leading UK producer of specialty phenolic and epoxy resins for the construction, composites and electronics industries. Strong positions in wind turbine blade resin and printed circuit board laminates. Capex programme underway to double bio-based resin capacity by 2026.',
+    sector: 'Specialty Chemicals',
+    geography: 'UK (Teesside)',
+    stageId: 'diligence',
+    financials: { revenue: 78.5, ebitda: 16.3, ev: 118.0, ebitdaMargin: 20.8, revenueGrowth: 11.4, netDebt: 14.2, year: 2024 },
+    ownerIds: ['u1', 'u4'],
+    advisors: 'Jefferies (sell-side), Ashurst (legal)',
+    ownership: 'PE-backed (Advent International)',
+    source: 'Intermediary',
+    nextAction: 'Legal DD kick-off call with Ashurst',
+    nextActionDate: '2025-02-04',
+    createdAt: '2024-10-01T09:00:00Z',
+    updatedAt: '2025-01-26T10:00:00Z',
+    stageHistory: [
+      { stageId: 'prospect', enteredAt: '2024-10-01T09:00:00Z' },
+      { stageId: 'nda', enteredAt: '2024-11-05T09:00:00Z' },
+      { stageId: 'diligence', enteredAt: '2025-01-07T09:00:00Z' },
+    ],
+  },
+  {
+    id: 'd9',
+    name: 'ElastoTech Partners',
+    description: 'Swiss specialty elastomers compounder serving the automotive sealing, medical tubing and food-contact markets. Proprietary TPE formulations with exceptional UV and chemical resistance. 85% of production exported across 30 countries.',
+    sector: 'Performance Materials',
+    geography: 'Switzerland',
+    stageId: 'nda',
+    financials: { revenue: 45.8, ebitda: 9.7, ev: 78.0, ebitdaMargin: 21.2, revenueGrowth: 7.6, netDebt: 5.1, year: 2024 },
+    ownerIds: ['u2', 'u3'],
+    advisors: 'UBS (sell-side)',
+    ownership: 'Founder-owned (MBO 2019)',
+    source: 'Network Referral',
+    nextAction: 'Receive and review CIM from UBS',
+    nextActionDate: '2025-02-10',
+    createdAt: '2024-12-05T09:00:00Z',
+    updatedAt: '2025-01-21T14:00:00Z',
+    stageHistory: [
+      { stageId: 'prospect', enteredAt: '2024-12-05T09:00:00Z' },
+      { stageId: 'nda', enteredAt: '2025-01-14T09:00:00Z' },
+    ],
+  },
+  {
+    id: 'd10',
+    name: 'NovaSynth Holdings',
+    description: 'French specialty ingredients business producing aroma chemicals and flavour intermediates for the fragrance and food industries. 40-year history of innovation. IFRA compliant supply chain. 70% revenues are recurring under long-term supply agreements with top-5 fragrance houses.',
+    sector: 'Fine Chemicals',
+    geography: 'France (Lyon)',
+    stageId: 'prospect',
+    financials: { revenue: 38.2, ebitda: 8.6, ev: 72.0, ebitdaMargin: 22.5, revenueGrowth: 6.8, netDebt: 3.4, year: 2024 },
+    ownerIds: ['u3'],
+    advisors: 'Rothschild (exploring)',
+    ownership: 'Family-owned (3rd generation)',
+    source: 'Conference / Event',
+    nextAction: 'Send introductory letter to family office',
+    nextActionDate: '2025-02-14',
+    createdAt: '2025-01-15T09:00:00Z',
+    updatedAt: '2025-01-29T09:00:00Z',
+    stageHistory: [{ stageId: 'prospect', enteredAt: '2025-01-15T09:00:00Z' }],
+  },
+  {
+    id: 'd11',
+    name: 'CatalyChem Group',
+    description: 'Spanish specialty catalyst manufacturer supplying the refining, petrochemical and emissions control industries. Strong IP in fluid catalytic cracking additives. Global distribution network across 25 countries. Regulatory tailwind from Euro 7 emissions standards.',
+    sector: 'Specialty Chemicals',
+    geography: 'Spain (Catalonia)',
+    stageId: 'loi',
+    financials: { revenue: 61.4, ebitda: 13.9, ev: 105.0, ebitdaMargin: 22.6, revenueGrowth: 14.2, netDebt: 9.8, year: 2024 },
+    ownerIds: ['u1', 'u2'],
+    advisors: 'Societe Generale (sell-side), Garrigues (legal)',
+    ownership: 'PE-backed (Portobello Capital)',
+    source: 'Proprietary Research',
+    nextAction: 'Align on exclusivity period length with seller advisor',
+    nextActionDate: '2025-01-30',
+    createdAt: '2024-07-22T09:00:00Z',
+    updatedAt: '2025-01-24T15:00:00Z',
+    stageHistory: [
+      { stageId: 'prospect', enteredAt: '2024-07-22T09:00:00Z' },
+      { stageId: 'nda', enteredAt: '2024-08-28T09:00:00Z' },
+      { stageId: 'diligence', enteredAt: '2024-10-10T09:00:00Z' },
+      { stageId: 'loi', enteredAt: '2025-01-13T09:00:00Z' },
+    ],
+  },
+  {
+    id: 'd12',
+    name: 'AquaShield Systems',
+    description: 'Nordic water treatment chemicals business with leading positions in municipal and industrial water purification. Proprietary polymer flocculant chemistry delivers best-in-class dosing efficiency. Long-term framework contracts with 12 European municipalities provide highly visible recurring revenues.',
+    sector: 'Specialty Chemicals',
+    geography: 'Finland / Nordics',
+    stageId: 'closing',
+    financials: { revenue: 59.3, ebitda: 14.1, ev: 108.0, ebitdaMargin: 23.8, revenueGrowth: 9.1, netDebt: 7.6, year: 2024 },
+    ownerIds: ['u2', 'u4'],
+    advisors: 'Handelsbanken Capital Markets (sell-side), White & Case (legal)',
+    ownership: 'Listed — take-private (Nasdaq Helsinki)',
+    source: 'Proprietary Research',
+    nextAction: 'Obtain regulatory clearance — Finnish FCA filing',
+    nextActionDate: '2025-02-01',
+    createdAt: '2024-04-14T09:00:00Z',
+    updatedAt: '2025-01-27T16:00:00Z',
+    stageHistory: [
+      { stageId: 'prospect', enteredAt: '2024-04-14T09:00:00Z' },
+      { stageId: 'nda', enteredAt: '2024-05-20T09:00:00Z' },
+      { stageId: 'diligence', enteredAt: '2024-07-08T09:00:00Z' },
+      { stageId: 'loi', enteredAt: '2024-10-02T09:00:00Z' },
+      { stageId: 'closing', enteredAt: '2024-12-09T09:00:00Z' },
+    ],
+  },
+  {
+    id: 'd13',
+    name: 'EnviroCoat Systems',
+    description: 'UK pioneer in bio-based and low-VOC industrial coatings for the construction and infrastructure sectors. First-mover advantage in plant-derived binders. Growing demand from infrastructure owners with net-zero commitments. CE marked and BBA certified product range.',
+    sector: 'Industrial Coatings',
+    geography: 'UK (Yorkshire)',
+    stageId: 'prospect',
+    financials: { revenue: 22.1, ebitda: 4.2, ev: 36.0, ebitdaMargin: 19.0, revenueGrowth: 31.4, netDebt: 0.8, year: 2024 },
+    ownerIds: ['u3', 'u4'],
+    advisors: 'None appointed yet',
+    ownership: 'Venture / growth equity-backed (Lightrock)',
+    source: 'Direct Approach',
+    nextAction: 'Introductory meeting with CEO and CTO',
+    nextActionDate: '2025-02-18',
+    createdAt: '2025-01-20T09:00:00Z',
+    updatedAt: '2025-01-28T11:00:00Z',
+    stageHistory: [{ stageId: 'prospect', enteredAt: '2025-01-20T09:00:00Z' }],
+  },
+  {
+    id: 'd14',
+    name: 'PharmaLink API',
+    description: 'Italian API synthesis and semi-synthesis CDMO with deep expertise in controlled substances and complex intermediates. FDA-registered and EMA-audited facilities in Milan and Turin. 15-year relationships with six European generics manufacturers.',
+    sector: 'Fine Chemicals',
+    geography: 'Italy (Lombardy)',
+    stageId: 'nda',
+    financials: { revenue: 49.7, ebitda: 11.4, ev: 95.0, ebitdaMargin: 22.9, revenueGrowth: 13.5, netDebt: 6.2, year: 2024 },
+    ownerIds: ['u1', 'u3'],
+    advisors: 'Mediobanca (sell-side)',
+    ownership: 'PE-backed (Apax Partners)',
+    source: 'Intermediary',
+    nextAction: 'Initial management call and facility video tour',
+    nextActionDate: '2025-02-06',
+    createdAt: '2024-12-18T09:00:00Z',
+    updatedAt: '2025-01-23T09:00:00Z',
+    stageHistory: [
+      { stageId: 'prospect', enteredAt: '2024-12-18T09:00:00Z' },
+      { stageId: 'nda', enteredAt: '2025-01-20T09:00:00Z' },
+    ],
+  },
 ];
 
 export const SEED_ACTIVITIES: Activity[] = [
@@ -239,50 +331,153 @@ export const SEED_ACTIVITIES: Activity[] = [
   { id: 'a1', dealId: 'd1', type: 'meeting', title: 'Management Presentation', body: 'Attended management presentation at ChemCo HQ in Coventry. Strong team, impressive R&D pipeline. Two new adhesive products in development for aerospace sector. CEO Tom Whitfield very credible. CFO slightly cautious on earn-out structure.', authorId: 'u2', createdAt: '2024-09-18T14:00:00Z' },
   { id: 'a2', dealId: 'd1', type: 'note', title: 'DD Red Flag — Environmental Liability', body: 'Phase II environmental survey revealed legacy contamination at the Wolverhampton facility. Legal team reviewing indemnity structure. Currently pricing £2.5m remediation into deal mechanics. Seller has agreed in principle to an escrow.', authorId: 'u4', createdAt: '2024-10-22T11:30:00Z' },
   { id: 'a3', dealId: 'd1', type: 'call', title: 'LOI Negotiation Call', body: 'Agreed headline EV of £127m subject to working capital peg. Bridgepoint agreed to defer 15% of proceeds for 18 months. Exclusivity extended to 28 Feb. Next step: SPA first draft from Linklaters by end of Jan.', authorId: 'u2', createdAt: '2025-01-15T16:00:00Z' },
+  { id: 'a14', dealId: 'd1', type: 'email', title: 'SPA First Draft Received', body: 'Linklaters delivered SPA first draft — 187 pages. Key areas for negotiation: locked-box vs completion accounts, W&I insurance coverage limit, and environmental indemnity cap. Circulating internally for review.', authorId: 'u4', createdAt: '2025-01-24T09:00:00Z' },
+  { id: 'a15', dealId: 'd1', type: 'note', title: 'W&I Insurance — Coverage Confirmed', body: 'W&I insurer (Howden) confirmed coverage at £12.7m (10% of EV). Excluded: environmental contamination at Wolverhampton, any pre-known tax issue. Premium: £382k. Decision: proceed with W&I, fund environmental via escrow.', authorId: 'u2', createdAt: '2025-01-27T14:00:00Z' },
+
   // Polyrex (d2)
   { id: 'a4', dealId: 'd2', type: 'email', title: 'NDA Executed', body: 'Bilateral NDA signed with Lazard. CIM received — reviewing internally. Preliminary financials broadly in line with expectations. Scheduling introductory call with management for next week.', authorId: 'u3', createdAt: '2024-09-15T09:00:00Z' },
   { id: 'a5', dealId: 'd2', type: 'meeting', title: 'Site Visit — Regensburg Facility', body: 'Full day site visit. Impressive cleanroom capability for medical-grade components. Capacity utilisation at 78%. Some capex required to scale pharma volumes. Family owner keen on cultural fit — important to demonstrate long-term commitment.', authorId: 'u1', createdAt: '2024-11-08T10:00:00Z' },
   { id: 'a6', dealId: 'd2', type: 'note', title: 'LOI Submitted', body: 'Submitted indicative LOI at 8.0x EBITDA (£95m EV). Earn-out of up to £8m over 2 years linked to revenue targets. Seller advisor pushing back on earn-out — counter-proposal expected.', authorId: 'u1', createdAt: '2025-01-10T14:00:00Z' },
+  { id: 'a16', dealId: 'd2', type: 'call', title: 'Earn-out Counter-proposal Call', body: 'Lazard came back requesting removal of the earn-out entirely, citing Klaus Müller\'s desire for a clean exit. Proposed alternative: fixed deferred consideration of €5m payable at 18 months regardless of performance. Discussing internally.', authorId: 'u3', createdAt: '2025-01-19T11:00:00Z' },
+  { id: 'a17', dealId: 'd2', type: 'meeting', title: 'IC Update Presentation', body: 'Presented deal to Investment Committee. IC broadly supportive of the opportunity but flagged medical device regulatory risk if FDA tightens Class II device rules. Action: commission regulatory risk memo from external counsel before LOI revision.', authorId: 'u1', createdAt: '2025-01-22T15:00:00Z' },
+
   // BioAg (d3)
   { id: 'a7', dealId: 'd3', type: 'meeting', title: 'Founder Introductory Meeting', body: 'Met Dr Fiona McAllister (founder) in Edinburgh. Passionate and technically strong. Business has grown 22% YoY. Keen to exit within 24 months but wants to stay on for 3 years post-completion.', authorId: 'u2', createdAt: '2024-10-05T11:00:00Z' },
   { id: 'a8', dealId: 'd3', type: 'note', title: 'Commercial DD Underway', body: 'Appointed Kearney for commercial due diligence. Focus areas: market sizing for biopesticides, regulatory pathway analysis, key customer concentration risk. Draft report expected in 3 weeks.', authorId: 'u2', createdAt: '2025-01-20T09:30:00Z' },
+  { id: 'a18', dealId: 'd3', type: 'call', title: 'Customer Reference Call — Frontier Agriculture', body: 'Spoke with procurement manager at Frontier Agriculture (largest UK customer, 18% of BioAg revenue). Very positive on product performance. Confirmed BioAg awarded preferred supplier status for 2025 season. Key validation for commercial DD.', authorId: 'u2', createdAt: '2025-01-23T10:00:00Z' },
+  { id: 'a19', dealId: 'd3', type: 'email', title: 'Management Accounts Received', body: 'Three-year P&L and balance sheet received from Peel Hunt. Oct-Dec trading broadly in line with management budget — strong seasonal demand for winter bio-stimulants. EBITDA YTD ahead by 4%. Passing to Anika for model update.', authorId: 'u2', createdAt: '2025-01-27T08:00:00Z' },
+
   // Nordex (d4)
   { id: 'a9', dealId: 'd4', type: 'email', title: 'NDA Execution', body: 'NDA signed with Carnegie Investment Bank representing Nordex board. Confidential Information Memorandum on its way. Listed vehicle — need to be careful about market sensitive information protocols.', authorId: 'u3', createdAt: '2024-12-18T10:00:00Z' },
   { id: 'a10', dealId: 'd4', type: 'call', title: 'Introductory Call with CFO', body: 'Call with CFO Lars Eriksen. Solid Q3 results — marine coatings demand up 12% driven by North Sea O&G capex. Company evaluating strategic options incl. listing on Oslo Børs. We need to move quickly on management meeting.', authorId: 'u3', createdAt: '2025-01-18T15:00:00Z' },
+  { id: 'a20', dealId: 'd4', type: 'note', title: 'CIM Review — Initial Observations', body: 'CIM received and reviewed. Highlights: market-leading 34% share in North Sea marine coatings, 82% customer retention over 5 years, strong ESG credentials (EMAS certified). Concerns: high customer concentration (top 3 = 41% revenue), FX exposure (NOK/EUR), pension deficit at Swedish subsidiary.', authorId: 'u4', createdAt: '2025-01-25T13:00:00Z' },
+
   // Finetech (d5)
   { id: 'a11', dealId: 'd5', type: 'note', title: 'Initial Research', body: 'Identified Finetech via network referral from Cian Murphy at BofA. CDMO space is very active — valuation benchmarks suggest 10-12x EBITDA for GMP-certified assets. Will need to move quickly if process becomes competitive.', authorId: 'u1', createdAt: '2025-01-08T09:00:00Z' },
+  { id: 'a21', dealId: 'd5', type: 'email', title: 'Introductory Email Sent', body: 'Sent introductory email to Philippe Dupont via mutual contact. Referenced our CDMO experience and sector knowledge. Proposed a short call to introduce ourselves with no obligation. Awaiting response.', authorId: 'u1', createdAt: '2025-01-22T10:00:00Z' },
+
   // SpecMat (d6)
   { id: 'a12', dealId: 'd6', type: 'update', title: 'Deal Completed', body: 'SPA signed. £110m EV. Transaction completed 20 December 2024. Integration PMO established. 100-day plan underway. Synergy working group meeting scheduled for January.', authorId: 'u2', createdAt: '2024-12-20T10:00:00Z' },
+  { id: 'a22', dealId: 'd6', type: 'meeting', title: '100-Day Integration Review', body: 'Week 5 integration review. Commercial synergies tracking ahead of plan — two cross-sell wins with existing portfolio companies totalling £1.2m incremental revenue. IT integration on schedule. Key hire: new Sales Director (start March). HR harmonisation workstream slightly behind plan.', authorId: 'u2', createdAt: '2025-01-24T09:00:00Z' },
+
   // Chemtek (d7)
   { id: 'a13', dealId: 'd7', type: 'note', title: 'Process Terminated', body: 'Environmental & process safety DD flagged critical issues at the Rotterdam facility — two unreported incidents in 2022 and potential HSE liability of €15-25m. Decision taken to withdraw from process. Seller declined to provide additional indemnities.', authorId: 'u3', createdAt: '2024-11-30T17:00:00Z' },
+
+  // Hexion (d8)
+  { id: 'a23', dealId: 'd8', type: 'email', title: 'NDA Signed — Process Commenced', body: 'Bilateral NDA signed with Jefferies. Process letter issued — indicative bids due 14 February. Management presentation scheduled for week of 27 January. 8 parties in the process per sell-side.', authorId: 'u1', createdAt: '2024-11-05T10:00:00Z' },
+  { id: 'a24', dealId: 'd8', type: 'meeting', title: 'Management Presentation', body: 'Attended management presentation in Middlesbrough. CEO Richard Staines very impressive — 18 years with the business, credible growth story. CFO presented financials: FY24 revenue £78.5m, EBITDA £16.3m. R&D pipeline highlighted — three products entering commercialisation in H2 2025.', authorId: 'u1', createdAt: '2025-01-13T10:00:00Z' },
+  { id: 'a25', dealId: 'd8', type: 'call', title: 'DD Planning Call with Ashurst', body: 'Kick-off call with Ashurst legal team. Agreed scope: corporate, commercial contracts, IP, employment, real estate and environmental (Phase I only initially). Virtual data room access granted. Target completion date: 28 February.', authorId: 'u4', createdAt: '2025-01-26T14:00:00Z' },
+  { id: 'a26', dealId: 'd8', type: 'note', title: 'Financial Model — First Pass', body: 'First-pass LBO model built on management case. At 7.5x entry EBITDA (£122m EV) and 50% debt, returns circa 2.5x / 22% IRR on 5-year hold. Key levers: EBITDA margin expansion to 23%+ and multiple arbitrage on exit. Running downside scenario this week.', authorId: 'u4', createdAt: '2025-01-22T16:00:00Z' },
+
+  // ElastoTech (d9)
+  { id: 'a27', dealId: 'd9', type: 'call', title: 'Intro Call — UBS Process', body: 'Introductory call with UBS. Structured sale process — 12 parties approached, 6 signed NDA. CIM expected 31 January. Management presentations week of 17 February. Indicative bids due 7 March.', authorId: 'u2', createdAt: '2025-01-14T11:00:00Z' },
+  { id: 'a28', dealId: 'd9', type: 'note', title: 'Sector Research Note', body: 'TPE market forecast to grow at 6.8% CAGR to 2030, driven by automotive lightweighting and medical device growth. ElastoTech\'s food-contact grade TPEs particularly well positioned — EU PPWR regulation expected to drive reformulation demand. Competitive moat appears durable.', authorId: 'u3', createdAt: '2025-01-21T09:00:00Z' },
+
+  // NovaSynth (d10)
+  { id: 'a29', dealId: 'd10', type: 'meeting', title: 'Conference Encounter — IFEAT London', body: 'Met Pierre-Henri Beaumont (3rd generation owner, CEO) at IFEAT fragrance conference in London. Initial conversation very positive — family open to exploring liquidity options after 40 years. Suggested a confidential introductory meeting in Lyon. No formal process underway.', authorId: 'u3', createdAt: '2025-01-16T18:00:00Z' },
+  { id: 'a30', dealId: 'd10', type: 'note', title: 'Desk Research — Competitive Landscape', body: 'Key competitors: Givaudan Ingredients, Symrise, IFF. NovaSynth differentiated by natural and nature-identical aroma chemicals rather than synthetic. Fragrance house consolidation a tailwind — fewer but larger customers seeking dedicated supply partners. Premium valuation likely justified.', authorId: 'u3', createdAt: '2025-01-20T10:00:00Z' },
+
+  // CatalyChem (d11)
+  { id: 'a31', dealId: 'd11', type: 'meeting', title: 'Management Presentation — Barcelona', body: 'Full-day management presentation in Barcelona. Impressive technical team. FCC additive market share in Iberia is 38%. New emissions-reduction catalyst for Euro 7 compliance in late-stage trials — launch Q3 2025. Management team to remain post-acquisition.', authorId: 'u2', createdAt: '2024-10-22T10:00:00Z' },
+  { id: 'a32', dealId: 'd11', type: 'note', title: 'LOI Strategy — IC Approval', body: 'IC approved LOI at 7.5x EBITDA (£104m). Submitted LOI at £105m with 90-day exclusivity. Key protections: locked-box mechanism, MAC clause covering regulatory changes, 18-month management retention plan. Awaiting counter from Portobello.', authorId: 'u1', createdAt: '2025-01-13T16:00:00Z' },
+  { id: 'a33', dealId: 'd11', type: 'call', title: 'Exclusivity Period Negotiation', body: 'Call with Societe Generale. Portobello counter-proposed 60-day exclusivity (vs our 90-day ask). Given complexity of Spanish regulatory filing, 60 days is tight. Proposed compromise: 75 days with 15-day extension right if Spanish CNMC filing delayed.', authorId: 'u2', createdAt: '2025-01-24T14:00:00Z' },
+  { id: 'a34', dealId: 'd11', type: 'email', title: 'Data Room Access Granted', body: 'Full access to VDR granted by Garrigues. 1,847 documents across corporate, legal, financial, IP and HR folders. Circulating access details to Ashurst (legal DD) and KPMG (financial DD). Target: financial DD complete by 21 February.', authorId: 'u4', createdAt: '2025-01-28T08:00:00Z' },
+
+  // AquaShield (d12)
+  { id: 'a35', dealId: 'd12', type: 'meeting', title: 'Management Meeting — Helsinki', body: 'Full-day management meeting in Helsinki. CEO Matti Korhonen (17 years with the company) presented strong pipeline: two new municipal contracts worth €4.2m ARR expected to close by Q2. Lab visit confirmed R&D capability in next-gen polymer flocculants.', authorId: 'u2', createdAt: '2024-08-15T10:00:00Z' },
+  { id: 'a36', dealId: 'd12', type: 'note', title: 'Regulatory Clearance Update', body: 'Finnish FCA (Finanssivalvonta) pre-notification filed 8 January. Estimated 4-6 week review period. White & Case advising on process. Parallel merger control filings: EU (below threshold — no filing required), UK CMA (voluntary notification submitted). No material concerns anticipated.', authorId: 'u4', createdAt: '2025-01-20T11:00:00Z' },
+  { id: 'a37', dealId: 'd12', type: 'call', title: 'Pre-Signing Checklist Review', body: 'Call with White & Case to review pre-signing checklist. Outstanding: FCA clearance (expected 14 Feb), board minute approval of SPA, shareholder circular and prospectus sign-off. Completion mechanics confirmed: locked-box at 31 Dec 2024. Target signing: 20 February.', authorId: 'u2', createdAt: '2025-01-27T15:00:00Z' },
+
+  // EnviroCoat (d13)
+  { id: 'a38', dealId: 'd13', type: 'note', title: 'Initial Desk Research', body: 'EnviroCoat identified as one of only three UK producers of fully bio-based industrial coatings. Backed by Lightrock (impact PE). Revenue growing 31% — admittedly from a small base. Margin improvement expected as volumes scale. Potential add-on to existing portfolio company. Flagging to James.', authorId: 'u4', createdAt: '2025-01-20T09:00:00Z' },
+  { id: 'a39', dealId: 'd13', type: 'email', title: 'Outreach to Lightrock', body: 'Sent introductory email to Lightrock\'s head of exits. Referenced our track record in sustainability-linked investments. Proposed exploratory call with no obligation. Response expected within 5 business days.', authorId: 'u3', createdAt: '2025-01-25T10:00:00Z' },
+
+  // PharmaLink (d14)
+  { id: 'a40', dealId: 'd14', type: 'email', title: 'NDA Signed — Apax Process', body: 'Bilateral NDA signed with Mediobanca. PharmaLink is being run as a structured process by Apax Partners who acquired in 2021. Management presentation scheduled for 10 February in Milan.', authorId: 'u1', createdAt: '2025-01-20T10:00:00Z' },
+  { id: 'a41', dealId: 'd14', type: 'note', title: 'CDMO Sector Context', body: 'European API CDMO market growing at 8-10% driven by pharma outsourcing trend and nearshoring from Asia. FDA import alerts on Indian API facilities accelerating this. PharmaLink\'s controlled substance capabilities are particularly scarce — few EU sites hold DEA equivalent licences. Premium valuation warranted.', authorId: 'u3', createdAt: '2025-01-23T14:00:00Z' },
+  { id: 'a42', dealId: 'd14', type: 'call', title: 'Preliminary Call with CFO', body: 'Call with CFO Marco Ferretti. FY24 revenue €49.7m, EBITDA €11.4m — in line with CIM. Q4 particularly strong (€3.4m EBITDA). Key risk flagged: one customer (Sandoz) represents 22% revenue — contract renewal due June 2026. Need to understand renewal probability in DD.', authorId: 'u1', createdAt: '2025-01-28T11:00:00Z' },
 ];
 
 export const SEED_DOCUMENTS: Document[] = [
+  // ChemCo (d1)
   { id: 'doc1', dealId: 'd1', filename: 'ChemCo_NDA_Executed.pdf', type: 'NDA', uploadedAt: '2024-08-02T10:00:00Z', version: '1.0', uploadedBy: 'u2', sizeKb: 245 },
   { id: 'doc2', dealId: 'd1', filename: 'ChemCo_CIM_Aug2024.pdf', type: 'CIM', uploadedAt: '2024-08-15T14:00:00Z', version: '1.0', uploadedBy: 'u4', sizeKb: 8420 },
   { id: 'doc3', dealId: 'd1', filename: 'ChemCo_Financial_Model_v3.xlsx', type: 'Model', uploadedAt: '2024-10-05T11:00:00Z', version: '3.0', uploadedBy: 'u4', sizeKb: 1840 },
-  { id: 'doc4', dealId: 'd1', filename: 'ChemCo_LOI_Draft.pdf', type: 'LOI', uploadedAt: '2024-11-20T09:00:00Z', version: '2.1', uploadedBy: 'u2', sizeKb: 512 },
+  { id: 'doc4', dealId: 'd1', filename: 'ChemCo_LOI_Draft_v2.pdf', type: 'LOI', uploadedAt: '2024-11-20T09:00:00Z', version: '2.1', uploadedBy: 'u2', sizeKb: 512 },
+  { id: 'doc43', dealId: 'd1', filename: 'ChemCo_SPA_FirstDraft_Linklaters.pdf', type: 'LOI', uploadedAt: '2025-01-24T09:30:00Z', version: 'Draft 1', uploadedBy: 'u4', sizeKb: 38400 },
+  { id: 'doc44', dealId: 'd1', filename: 'ChemCo_WI_Insurance_Summary.pdf', type: 'Report', uploadedAt: '2025-01-27T15:00:00Z', version: '1.0', uploadedBy: 'u2', sizeKb: 620 },
+  // Polyrex (d2)
   { id: 'doc5', dealId: 'd2', filename: 'Polyrex_NDA_Signed.pdf', type: 'NDA', uploadedAt: '2024-09-15T09:00:00Z', version: '1.0', uploadedBy: 'u3', sizeKb: 198 },
   { id: 'doc6', dealId: 'd2', filename: 'Polyrex_CIM_Sep2024.pdf', type: 'CIM', uploadedAt: '2024-09-20T10:00:00Z', version: '1.0', uploadedBy: 'u1', sizeKb: 11200 },
-  { id: 'doc7', dealId: 'd2', filename: 'Polyrex_IM_Financial_Model.xlsx', type: 'Model', uploadedAt: '2024-11-15T14:00:00Z', version: '1.2', uploadedBy: 'u4', sizeKb: 2100 },
+  { id: 'doc7', dealId: 'd2', filename: 'Polyrex_LBO_Model_v1.2.xlsx', type: 'Model', uploadedAt: '2024-11-15T14:00:00Z', version: '1.2', uploadedBy: 'u4', sizeKb: 2100 },
+  { id: 'doc45', dealId: 'd2', filename: 'Polyrex_LOI_Draft.pdf', type: 'LOI', uploadedAt: '2025-01-10T15:00:00Z', version: '1.0', uploadedBy: 'u1', sizeKb: 480 },
+  // BioAg (d3)
   { id: 'doc8', dealId: 'd3', filename: 'BioAg_NDA.pdf', type: 'NDA', uploadedAt: '2024-10-01T09:00:00Z', version: '1.0', uploadedBy: 'u2', sizeKb: 210 },
   { id: 'doc9', dealId: 'd3', filename: 'BioAg_CIM_Oct2024.pdf', type: 'CIM', uploadedAt: '2024-10-10T12:00:00Z', version: '1.0', uploadedBy: 'u2', sizeKb: 6800 },
+  { id: 'doc46', dealId: 'd3', filename: 'BioAg_Kearney_CommDD_Draft.pdf', type: 'Report', uploadedAt: '2025-01-26T10:00:00Z', version: 'Draft', uploadedBy: 'u2', sizeKb: 4200 },
+  // Nordex (d4)
   { id: 'doc10', dealId: 'd4', filename: 'Nordex_NDA_Carnegie.pdf', type: 'NDA', uploadedAt: '2024-12-18T10:00:00Z', version: '1.0', uploadedBy: 'u3', sizeKb: 280 },
+  { id: 'doc47', dealId: 'd4', filename: 'Nordex_CIM_Jan2025.pdf', type: 'CIM', uploadedAt: '2025-01-22T14:00:00Z', version: '1.0', uploadedBy: 'u4', sizeKb: 14800 },
+  // SpecMat (d6)
   { id: 'doc11', dealId: 'd6', filename: 'SpecMat_NDA.pdf', type: 'NDA', uploadedAt: '2024-04-02T09:00:00Z', version: '1.0', uploadedBy: 'u2', sizeKb: 220 },
   { id: 'doc12', dealId: 'd6', filename: 'SpecMat_SPA_Final.pdf', type: 'LOI', uploadedAt: '2024-12-18T15:00:00Z', version: 'Final', uploadedBy: 'u2', sizeKb: 42500 },
+  // Hexion (d8)
+  { id: 'doc20', dealId: 'd8', filename: 'Hexion_NDA_Jefferies.pdf', type: 'NDA', uploadedAt: '2024-11-05T10:00:00Z', version: '1.0', uploadedBy: 'u1', sizeKb: 265 },
+  { id: 'doc21', dealId: 'd8', filename: 'Hexion_CIM_Nov2024.pdf', type: 'CIM', uploadedAt: '2024-11-12T09:00:00Z', version: '1.0', uploadedBy: 'u1', sizeKb: 9800 },
+  { id: 'doc22', dealId: 'd8', filename: 'Hexion_LBO_Model_v1.xlsx', type: 'Model', uploadedAt: '2025-01-22T17:00:00Z', version: '1.0', uploadedBy: 'u4', sizeKb: 2240 },
+  { id: 'doc23', dealId: 'd8', filename: 'Hexion_Legal_DD_Scope_Ashurst.pdf', type: 'Report', uploadedAt: '2025-01-26T15:00:00Z', version: '1.0', uploadedBy: 'u4', sizeKb: 380 },
+  // ElastoTech (d9)
+  { id: 'doc24', dealId: 'd9', filename: 'ElastoTech_NDA_UBS.pdf', type: 'NDA', uploadedAt: '2025-01-14T12:00:00Z', version: '1.0', uploadedBy: 'u2', sizeKb: 290 },
+  // CatalyChem (d11)
+  { id: 'doc30', dealId: 'd11', filename: 'CatalyChem_NDA.pdf', type: 'NDA', uploadedAt: '2024-08-28T09:00:00Z', version: '1.0', uploadedBy: 'u2', sizeKb: 235 },
+  { id: 'doc31', dealId: 'd11', filename: 'CatalyChem_CIM_Sep2024.pdf', type: 'CIM', uploadedAt: '2024-09-05T09:00:00Z', version: '1.0', uploadedBy: 'u4', sizeKb: 8900 },
+  { id: 'doc32', dealId: 'd11', filename: 'CatalyChem_LBO_Model_v2.xlsx', type: 'Model', uploadedAt: '2024-12-10T14:00:00Z', version: '2.0', uploadedBy: 'u4', sizeKb: 1960 },
+  { id: 'doc33', dealId: 'd11', filename: 'CatalyChem_LOI_Submitted.pdf', type: 'LOI', uploadedAt: '2025-01-13T17:00:00Z', version: '1.0', uploadedBy: 'u1', sizeKb: 490 },
+  // AquaShield (d12)
+  { id: 'doc35', dealId: 'd12', filename: 'AquaShield_NDA.pdf', type: 'NDA', uploadedAt: '2024-05-20T09:00:00Z', version: '1.0', uploadedBy: 'u2', sizeKb: 250 },
+  { id: 'doc36', dealId: 'd12', filename: 'AquaShield_CIM.pdf', type: 'CIM', uploadedAt: '2024-06-01T10:00:00Z', version: '1.0', uploadedBy: 'u4', sizeKb: 10200 },
+  { id: 'doc37', dealId: 'd12', filename: 'AquaShield_LBO_Model_v3.xlsx', type: 'Model', uploadedAt: '2024-09-15T14:00:00Z', version: '3.1', uploadedBy: 'u4', sizeKb: 2680 },
+  { id: 'doc38', dealId: 'd12', filename: 'AquaShield_LOI_Executed.pdf', type: 'LOI', uploadedAt: '2024-10-02T16:00:00Z', version: '1.0', uploadedBy: 'u2', sizeKb: 510 },
+  { id: 'doc39', dealId: 'd12', filename: 'AquaShield_SPA_v2_WhiteCase.pdf', type: 'LOI', uploadedAt: '2025-01-10T11:00:00Z', version: 'Draft 2', uploadedBy: 'u2', sizeKb: 44200 },
+  // PharmaLink (d14)
+  { id: 'doc40', dealId: 'd14', filename: 'PharmaLink_NDA_Mediobanca.pdf', type: 'NDA', uploadedAt: '2025-01-20T11:00:00Z', version: '1.0', uploadedBy: 'u1', sizeKb: 272 },
+  { id: 'doc41', dealId: 'd14', filename: 'PharmaLink_Teaser_Apax.pdf', type: 'CIM', uploadedAt: '2025-01-21T09:00:00Z', version: '1.0', uploadedBy: 'u3', sizeKb: 2100 },
 ];
 
 export const SEED_TASKS: Task[] = [
-  { id: 't1', dealId: 'd1', title: 'Review SPA first draft from Linklaters', ownerId: 'u2', dueDate: '2025-02-01', status: 'open', createdAt: '2025-01-15T09:00:00Z' },
-  { id: 't2', dealId: 'd1', title: 'Finalise environmental indemnity structure with legal team', ownerId: 'u4', dueDate: '2025-01-31', status: 'in-progress', createdAt: '2024-10-22T09:00:00Z' },
+  // ChemCo (d1)
+  { id: 't1', dealId: 'd1', title: 'Review SPA first draft from Linklaters', ownerId: 'u2', dueDate: '2025-02-01', status: 'in-progress', createdAt: '2025-01-24T09:00:00Z' },
+  { id: 't2', dealId: 'd1', title: 'Finalise environmental indemnity escrow structure', ownerId: 'u4', dueDate: '2025-01-31', status: 'in-progress', createdAt: '2024-10-22T09:00:00Z' },
   { id: 't3', dealId: 'd1', title: 'Prepare IC paper for final approval', ownerId: 'u2', dueDate: '2025-02-05', status: 'open', createdAt: '2025-01-20T09:00:00Z' },
-  { id: 't4', dealId: 'd2', title: 'Prepare revised LOI with earn-out restructure', ownerId: 'u1', dueDate: '2025-01-31', status: 'in-progress', createdAt: '2025-01-10T09:00:00Z' },
-  { id: 't5', dealId: 'd2', title: 'Complete financial model sensitivity analysis', ownerId: 'u4', dueDate: '2025-02-03', status: 'open', createdAt: '2025-01-18T09:00:00Z' },
-  { id: 't6', dealId: 'd3', title: 'Review Kearney commercial DD report (draft)', ownerId: 'u2', dueDate: '2025-02-10', status: 'open', createdAt: '2025-01-20T09:00:00Z' },
+  { id: 't15', dealId: 'd1', title: 'Confirm W&I insurance policy terms with Howden', ownerId: 'u2', dueDate: '2025-01-29', status: 'done', createdAt: '2025-01-27T09:00:00Z' },
+  // Polyrex (d2)
+  { id: 't4', dealId: 'd2', title: 'Prepare revised LOI with deferred consideration structure', ownerId: 'u1', dueDate: '2025-01-31', status: 'in-progress', createdAt: '2025-01-19T09:00:00Z' },
+  { id: 't5', dealId: 'd2', title: 'Commission FDA regulatory risk memo from external counsel', ownerId: 'u4', dueDate: '2025-02-07', status: 'open', createdAt: '2025-01-22T09:00:00Z' },
+  { id: 't16', dealId: 'd2', title: 'Update LBO model for revised deal structure', ownerId: 'u4', dueDate: '2025-02-03', status: 'open', createdAt: '2025-01-19T09:00:00Z' },
+  // BioAg (d3)
+  { id: 't6', dealId: 'd3', title: 'Review Kearney commercial DD report (draft)', ownerId: 'u2', dueDate: '2025-02-10', status: 'open', createdAt: '2025-01-26T09:00:00Z' },
   { id: 't7', dealId: 'd3', title: 'Request 3-year management accounts', ownerId: 'u2', dueDate: '2025-01-30', status: 'done', createdAt: '2025-01-05T09:00:00Z' },
+  { id: 't17', dealId: 'd3', title: 'Update financial model with Oct-Dec management accounts', ownerId: 'u4', dueDate: '2025-02-04', status: 'open', createdAt: '2025-01-27T09:00:00Z' },
+  // Nordex (d4)
   { id: 't8', dealId: 'd4', title: 'Draft agenda for management presentation', ownerId: 'u3', dueDate: '2025-02-08', status: 'open', createdAt: '2025-01-18T09:00:00Z' },
-  { id: 't9', dealId: 'd5', title: 'Prepare initial deal teaser note for IC', ownerId: 'u1', dueDate: '2025-02-07', status: 'open', createdAt: '2025-01-08T09:00:00Z' },
-  { id: 't10', dealId: 'd6', title: 'Integration 100-day plan review', ownerId: 'u2', dueDate: '2025-01-31', status: 'in-progress', createdAt: '2024-12-20T09:00:00Z' },
+  { id: 't18', dealId: 'd4', title: 'Write up CIM review note for IC', ownerId: 'u4', dueDate: '2025-02-03', status: 'in-progress', createdAt: '2025-01-25T09:00:00Z' },
+  // Finetech (d5)
+  { id: 't9', dealId: 'd5', title: 'Prepare deal origination note for IC pipeline review', ownerId: 'u1', dueDate: '2025-02-07', status: 'open', createdAt: '2025-01-22T09:00:00Z' },
+  // SpecMat (d6)
+  { id: 't10', dealId: 'd6', title: 'Integration 100-day plan — HR workstream review', ownerId: 'u2', dueDate: '2025-02-07', status: 'in-progress', createdAt: '2024-12-20T09:00:00Z' },
+  // Hexion (d8)
+  { id: 't11', dealId: 'd8', title: 'Review legal DD scope with Ashurst — confirm VDR access', ownerId: 'u4', dueDate: '2025-02-04', status: 'open', createdAt: '2025-01-26T09:00:00Z' },
+  { id: 't19', dealId: 'd8', title: 'Run downside scenario on LBO model', ownerId: 'u4', dueDate: '2025-02-01', status: 'in-progress', createdAt: '2025-01-22T09:00:00Z' },
+  { id: 't20', dealId: 'd8', title: 'Submit indicative bid by process deadline', ownerId: 'u1', dueDate: '2025-02-14', status: 'open', createdAt: '2025-01-13T09:00:00Z' },
+  // CatalyChem (d11)
+  { id: 't12', dealId: 'd11', title: 'Agree exclusivity period with Societe Generale', ownerId: 'u2', dueDate: '2025-01-30', status: 'in-progress', createdAt: '2025-01-24T09:00:00Z' },
+  { id: 't21', dealId: 'd11', title: 'Coordinate DD scope with KPMG and Ashurst', ownerId: 'u4', dueDate: '2025-02-03', status: 'open', createdAt: '2025-01-28T09:00:00Z' },
+  // AquaShield (d12)
+  { id: 't13', dealId: 'd12', title: 'Track Finnish FCA regulatory clearance timeline', ownerId: 'u4', dueDate: '2025-02-01', status: 'in-progress', createdAt: '2025-01-20T09:00:00Z' },
+  { id: 't22', dealId: 'd12', title: 'Review SPA v2 redline from White & Case', ownerId: 'u2', dueDate: '2025-01-31', status: 'open', createdAt: '2025-01-27T09:00:00Z' },
+  // PharmaLink (d14)
+  { id: 't14', dealId: 'd14', title: 'Prepare management presentation questions list', ownerId: 'u1', dueDate: '2025-02-08', status: 'open', createdAt: '2025-01-28T09:00:00Z' },
+  { id: 't23', dealId: 'd14', title: 'Research Sandoz contract renewal risk — check public filings', ownerId: 'u3', dueDate: '2025-02-05', status: 'open', createdAt: '2025-01-28T09:00:00Z' },
 ];
 
 export const DILIGENCE_TEMPLATES: Record<string, { label: string }[]> = {
@@ -329,7 +524,7 @@ export const DILIGENCE_TEMPLATES: Record<string, { label: string }[]> = {
 };
 
 export const SEED_DILIGENCE: DiligenceItem[] = [
-  // ChemCo (d1) - mostly checked (in closing)
+  // ChemCo (d1) — closing, mostly complete
   { id: 'di1', dealId: 'd1', category: 'Legal', label: 'Corporate structure and constitutional documents reviewed', checked: true },
   { id: 'di2', dealId: 'd1', category: 'Legal', label: 'Material contracts and customer agreements reviewed', checked: true },
   { id: 'di3', dealId: 'd1', category: 'Legal', label: 'IP ownership and licences confirmed', checked: true },
@@ -346,7 +541,7 @@ export const SEED_DILIGENCE: DiligenceItem[] = [
   { id: 'di14', dealId: 'd1', category: 'Financial', label: 'Revenue quality and recurring revenue assessment', checked: true },
   { id: 'di15', dealId: 'd1', category: 'Financial', label: 'Tax review completed (direct and indirect)', checked: false },
   { id: 'di16', dealId: 'd1', category: 'Financial', label: 'Financial model independently built and sense-checked', checked: true },
-  // Polyrex (d2)
+  // Polyrex (d2) — LOI
   { id: 'di17', dealId: 'd2', category: 'Legal', label: 'Corporate structure and constitutional documents reviewed', checked: true },
   { id: 'di18', dealId: 'd2', category: 'Legal', label: 'Material contracts and customer agreements reviewed', checked: false },
   { id: 'di19', dealId: 'd2', category: 'Financial', label: 'Audited accounts (3 years) reviewed', checked: true },
@@ -357,15 +552,79 @@ export const SEED_DILIGENCE: DiligenceItem[] = [
   { id: 'di23', dealId: 'd3', category: 'Commercial', label: 'Customer concentration risk assessed', checked: true },
   { id: 'di24', dealId: 'd3', category: 'Financial', label: 'Audited accounts (3 years) reviewed', checked: true },
   { id: 'di25', dealId: 'd3', category: 'Financial', label: 'Management accounts YTD reviewed', checked: false },
+  // Hexion (d8) — diligence, partially complete
+  { id: 'di26', dealId: 'd8', category: 'Legal', label: 'Corporate structure and constitutional documents reviewed', checked: true },
+  { id: 'di27', dealId: 'd8', category: 'Legal', label: 'Material contracts and customer agreements reviewed', checked: false },
+  { id: 'di28', dealId: 'd8', category: 'Legal', label: 'IP ownership and licences confirmed', checked: false },
+  { id: 'di29', dealId: 'd8', category: 'Legal', label: 'Employment contracts and key man risk assessed', checked: false },
+  { id: 'di30', dealId: 'd8', category: 'Legal', label: 'Environmental liabilities and permits checked', checked: false },
+  { id: 'di31', dealId: 'd8', category: 'Financial', label: 'Audited accounts (3 years) reviewed', checked: true },
+  { id: 'di32', dealId: 'd8', category: 'Financial', label: 'Management accounts YTD reviewed', checked: true },
+  { id: 'di33', dealId: 'd8', category: 'Financial', label: 'Working capital normalisation completed', checked: false },
+  { id: 'di34', dealId: 'd8', category: 'Financial', label: 'Financial model independently built and sense-checked', checked: true },
+  // CatalyChem (d11) — LOI, substantial DD done
+  { id: 'di35', dealId: 'd11', category: 'Legal', label: 'Corporate structure and constitutional documents reviewed', checked: true },
+  { id: 'di36', dealId: 'd11', category: 'Legal', label: 'Material contracts and customer agreements reviewed', checked: true },
+  { id: 'di37', dealId: 'd11', category: 'Legal', label: 'IP ownership and licences confirmed', checked: true },
+  { id: 'di38', dealId: 'd11', category: 'Legal', label: 'Litigation and regulatory matters reviewed', checked: false },
+  { id: 'di39', dealId: 'd11', category: 'Financial', label: 'Audited accounts (3 years) reviewed', checked: true },
+  { id: 'di40', dealId: 'd11', category: 'Financial', label: 'Management accounts YTD reviewed', checked: true },
+  { id: 'di41', dealId: 'd11', category: 'Financial', label: 'Working capital normalisation completed', checked: true },
+  { id: 'di42', dealId: 'd11', category: 'Financial', label: 'Debt and debt-like items identified', checked: true },
+  { id: 'di43', dealId: 'd11', category: 'Financial', label: 'Financial model independently built and sense-checked', checked: true },
+  { id: 'di44', dealId: 'd11', category: 'Commercial', label: 'Market sizing and growth outlook assessed', checked: true },
+  { id: 'di45', dealId: 'd11', category: 'Commercial', label: 'Customer concentration risk assessed', checked: true },
+  { id: 'di46', dealId: 'd11', category: 'Commercial', label: 'Competitive positioning analysis completed', checked: false },
+  // AquaShield (d12) — closing, nearly all done
+  { id: 'di47', dealId: 'd12', category: 'Legal', label: 'Corporate structure and constitutional documents reviewed', checked: true },
+  { id: 'di48', dealId: 'd12', category: 'Legal', label: 'Material contracts and customer agreements reviewed', checked: true },
+  { id: 'di49', dealId: 'd12', category: 'Legal', label: 'IP ownership and licences confirmed', checked: true },
+  { id: 'di50', dealId: 'd12', category: 'Legal', label: 'Employment contracts and key man risk assessed', checked: true },
+  { id: 'di51', dealId: 'd12', category: 'Legal', label: 'Litigation and regulatory matters reviewed', checked: true },
+  { id: 'di52', dealId: 'd12', category: 'Legal', label: 'Environmental liabilities and permits checked', checked: true },
+  { id: 'di53', dealId: 'd12', category: 'Financial', label: 'Audited accounts (3 years) reviewed', checked: true },
+  { id: 'di54', dealId: 'd12', category: 'Financial', label: 'Management accounts YTD reviewed', checked: true },
+  { id: 'di55', dealId: 'd12', category: 'Financial', label: 'Working capital normalisation completed', checked: true },
+  { id: 'di56', dealId: 'd12', category: 'Financial', label: 'Financial model independently built and sense-checked', checked: true },
+  { id: 'di57', dealId: 'd12', category: 'Commercial', label: 'Market sizing and growth outlook assessed', checked: true },
+  { id: 'di58', dealId: 'd12', category: 'Commercial', label: 'Customer concentration risk assessed', checked: true },
+  { id: 'di59', dealId: 'd12', category: 'Operational', label: 'Site visits completed at all key facilities', checked: true },
+  { id: 'di60', dealId: 'd12', category: 'Operational', label: 'ESG assessment completed', checked: false },
 ];
 
 export const SEED_CONTACTS: Contact[] = [
+  // ChemCo (d1)
   { id: 'c1', dealId: 'd1', name: 'Tom Whitfield', role: 'CEO', email: 'tom.whitfield@chemco.co.uk', phone: '+44 7700 900123', isPrimary: true },
   { id: 'c2', dealId: 'd1', name: 'Sarah Benson', role: 'CFO', email: 's.benson@chemco.co.uk', phone: '+44 7700 900456', isPrimary: false },
-  { id: 'c3', dealId: 'd1', name: 'Marcus Holt', role: 'MD, Rothschild (Sell-side Advisor)', email: 'm.holt@rothschild.com', phone: '+44 20 7280 5000', isPrimary: false },
+  { id: 'c3', dealId: 'd1', name: 'Marcus Holt', role: 'MD, Rothschild (Sell-side)', email: 'm.holt@rothschild.com', phone: '+44 20 7280 5000', isPrimary: false },
+  // Polyrex (d2)
   { id: 'c4', dealId: 'd2', name: 'Klaus Müller', role: 'Owner / Managing Director', email: 'k.mueller@polyrex.de', phone: '+49 89 1234567', isPrimary: true },
   { id: 'c5', dealId: 'd2', name: 'Anna Weber', role: 'CFO', email: 'a.weber@polyrex.de', phone: '+49 89 7654321', isPrimary: false },
+  { id: 'c16', dealId: 'd2', name: 'Tobias Braun', role: 'MD, Lazard (Sell-side)', email: 't.braun@lazard.com', phone: '+49 89 2020 3000', isPrimary: false },
+  // BioAg (d3)
   { id: 'c6', dealId: 'd3', name: 'Dr Fiona McAllister', role: 'Founder & CEO', email: 'f.mcallister@bioag.co.uk', phone: '+44 7800 123456', isPrimary: true },
+  { id: 'c17', dealId: 'd3', name: 'Callum Reid', role: 'CFO', email: 'c.reid@bioag.co.uk', phone: '+44 7800 654321', isPrimary: false },
+  // Nordex (d4)
   { id: 'c7', dealId: 'd4', name: 'Lars Eriksen', role: 'CFO', email: 'l.eriksen@nordexcoatings.no', phone: '+47 22 001234', isPrimary: true },
+  { id: 'c18', dealId: 'd4', name: 'Ingrid Halvorsen', role: 'CEO', email: 'i.halvorsen@nordexcoatings.no', phone: '+47 22 005678', isPrimary: false },
+  // Finetech (d5)
   { id: 'c8', dealId: 'd5', name: 'Philippe Dupont', role: 'CEO', email: 'p.dupont@finetech.be', phone: '+32 2 345 6789', isPrimary: true },
+  // Hexion (d8)
+  { id: 'c9', dealId: 'd8', name: 'Richard Staines', role: 'CEO', email: 'r.staines@hexionsurface.co.uk', phone: '+44 1642 123456', isPrimary: true },
+  { id: 'c10', dealId: 'd8', name: 'Caroline Marsh', role: 'CFO', email: 'c.marsh@hexionsurface.co.uk', phone: '+44 1642 234567', isPrimary: false },
+  { id: 'c11', dealId: 'd8', name: 'David Kaye', role: 'MD, Jefferies (Sell-side)', email: 'd.kaye@jefferies.com', phone: '+44 20 7029 8000', isPrimary: false },
+  // ElastoTech (d9)
+  { id: 'c12', dealId: 'd9', name: 'Hans-Peter Zürcher', role: 'Founder & CEO', email: 'hp.zurcher@elastotech.ch', phone: '+41 44 123 4567', isPrimary: true },
+  // NovaSynth (d10)
+  { id: 'c13', dealId: 'd10', name: 'Pierre-Henri Beaumont', role: 'CEO (3rd generation owner)', email: 'ph.beaumont@novasynth.fr', phone: '+33 4 78 123 456', isPrimary: true },
+  // CatalyChem (d11)
+  { id: 'c14', dealId: 'd11', name: 'Alejandro Torres', role: 'CEO', email: 'a.torres@catalychem.es', phone: '+34 93 123 4567', isPrimary: true },
+  { id: 'c19', dealId: 'd11', name: 'Isabel Navarro', role: 'CFO', email: 'i.navarro@catalychem.es', phone: '+34 93 234 5678', isPrimary: false },
+  // AquaShield (d12)
+  { id: 'c15', dealId: 'd12', name: 'Matti Korhonen', role: 'CEO', email: 'm.korhonen@aquashield.fi', phone: '+358 9 123 4567', isPrimary: true },
+  { id: 'c20', dealId: 'd12', name: 'Sari Virtanen', role: 'CFO', email: 's.virtanen@aquashield.fi', phone: '+358 9 234 5678', isPrimary: false },
+  { id: 'c21', dealId: 'd12', name: 'William Cross', role: 'Partner, White & Case (Legal)', email: 'w.cross@whitecase.com', phone: '+44 20 7532 1000', isPrimary: false },
+  // PharmaLink (d14)
+  { id: 'c22', dealId: 'd14', name: 'Marco Ferretti', role: 'CFO', email: 'm.ferretti@pharmalinkapi.it', phone: '+39 02 1234 5678', isPrimary: false },
+  { id: 'c23', dealId: 'd14', name: 'Lucia Bianchi', role: 'CEO', email: 'l.bianchi@pharmalinkapi.it', phone: '+39 02 8765 4321', isPrimary: true },
 ];

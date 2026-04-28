@@ -265,7 +265,7 @@ export const useAppStore = create<AppState>()(
       setCurrentUser: (userId) => set({ currentUserId: userId }),
     }),
     {
-      name: 'maisy-store',
+      name: 'maisy-store-v2',
     }
   )
 );
