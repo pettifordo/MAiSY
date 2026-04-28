@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { Plus, Trash2, Mail, Phone, Star } from 'lucide-react';
 import { useAppStore } from '../../store/useAppStore';
 
@@ -7,7 +7,8 @@ interface Props {
 }
 
 export function ContactsTab({ dealId }: Props) {
-  const contacts = useAppStore((s) => s.contacts.filter((c) => c.dealId === dealId));
+  const allContacts = useAppStore((s) => s.contacts);
+  const contacts = useMemo(() => allContacts.filter((c) => c.dealId === dealId), [allContacts, dealId]);
   const addContact = useAppStore((s) => s.addContact);
   const deleteContact = useAppStore((s) => s.deleteContact);
   const updateContact = useAppStore((s) => s.updateContact);

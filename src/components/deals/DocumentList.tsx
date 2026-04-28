@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { format, parseISO } from 'date-fns';
 import { FileText, Plus, Trash2, Download } from 'lucide-react';
 import { useAppStore } from '../../store/useAppStore';
@@ -18,10 +18,12 @@ interface Props {
 }
 
 export function DocumentList({ dealId }: Props) {
-  const documents = useAppStore((s) =>
-    s.documents.filter((d) => d.dealId === dealId).sort(
+  const allDocuments = useAppStore((s) => s.documents);
+  const documents = useMemo(() =>
+    allDocuments.filter((d) => d.dealId === dealId).sort(
       (a, b) => new Date(b.uploadedAt).getTime() - new Date(a.uploadedAt).getTime()
-    )
+    ),
+    [allDocuments, dealId]
   );
   const team = useAppStore((s) => s.team);
   const currentUserId = useAppStore((s) => s.currentUserId);

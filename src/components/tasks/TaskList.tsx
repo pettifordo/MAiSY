@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { format, parseISO, isPast } from 'date-fns';
 import { Plus, Trash2, CheckCircle2, Circle, Clock } from 'lucide-react';
 import { useAppStore } from '../../store/useAppStore';
@@ -15,10 +15,12 @@ interface Props {
 }
 
 export function TaskList({ dealId }: Props) {
-  const tasks = useAppStore((s) =>
-    s.tasks.filter((t) => t.dealId === dealId).sort(
+  const allTasks = useAppStore((s) => s.tasks);
+  const tasks = useMemo(() =>
+    allTasks.filter((t) => t.dealId === dealId).sort(
       (a, b) => new Date(a.dueDate).getTime() - new Date(b.dueDate).getTime()
-    )
+    ),
+    [allTasks, dealId]
   );
   const team = useAppStore((s) => s.team);
   const currentUserId = useAppStore((s) => s.currentUserId);

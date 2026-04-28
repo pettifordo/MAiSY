@@ -1,7 +1,7 @@
 import { useAppStore } from '../../store/useAppStore';
 import type { DiligenceCategory } from '../../types';
 import { CheckSquare, Square, Plus, ChevronDown, ChevronRight } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 
 const CATEGORIES: DiligenceCategory[] = ['Legal', 'Financial', 'Commercial', 'Operational'];
 
@@ -17,7 +17,8 @@ interface Props {
 }
 
 export function DiligenceChecklist({ dealId }: Props) {
-  const items = useAppStore((s) => s.diligenceItems.filter((di) => di.dealId === dealId));
+  const allDiligenceItems = useAppStore((s) => s.diligenceItems);
+  const items = useMemo(() => allDiligenceItems.filter((di) => di.dealId === dealId), [allDiligenceItems, dealId]);
   const applyTemplate = useAppStore((s) => s.applyDiligenceTemplate);
   const toggleItem = useAppStore((s) => s.toggleDiligenceItem);
 

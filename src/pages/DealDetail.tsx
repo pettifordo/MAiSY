@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import {
   ArrowLeft, Edit2, Check, X, MapPin, Building, Users,
@@ -59,11 +59,17 @@ export function DealDetail() {
   const team = useAppStore((s) => s.team);
   const updateDeal = useAppStore((s) => s.updateDeal);
   const moveDeal = useAppStore((s) => s.moveDeal);
-  const activities = useAppStore((s) => s.activities.filter((a) => a.dealId === id));
-  const documents = useAppStore((s) => s.documents.filter((d) => d.dealId === id));
-  const tasks = useAppStore((s) => s.tasks.filter((t) => t.dealId === id));
-  const diligenceItems = useAppStore((s) => s.diligenceItems.filter((di) => di.dealId === id));
-  const contacts = useAppStore((s) => s.contacts.filter((c) => c.dealId === id));
+  const allActivities = useAppStore((s) => s.activities);
+  const allDocuments = useAppStore((s) => s.documents);
+  const allTasks = useAppStore((s) => s.tasks);
+  const allDiligenceItems = useAppStore((s) => s.diligenceItems);
+  const allContacts = useAppStore((s) => s.contacts);
+
+  const activities = useMemo(() => allActivities.filter((a) => a.dealId === id), [allActivities, id]);
+  const documents = useMemo(() => allDocuments.filter((d) => d.dealId === id), [allDocuments, id]);
+  const tasks = useMemo(() => allTasks.filter((t) => t.dealId === id), [allTasks, id]);
+  const diligenceItems = useMemo(() => allDiligenceItems.filter((di) => di.dealId === id), [allDiligenceItems, id]);
+  const contacts = useMemo(() => allContacts.filter((c) => c.dealId === id), [allContacts, id]);
 
   const [activeTab, setActiveTab] = useState<Tab>('overview');
   const [editingNextAction, setEditingNextAction] = useState(false);

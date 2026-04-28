@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { format, parseISO } from 'date-fns';
 import { MessageSquare, Phone, Mail, Users, RefreshCw, Plus } from 'lucide-react';
 import { useAppStore } from '../../store/useAppStore';
@@ -17,10 +17,12 @@ interface Props {
 }
 
 export function ActivityTimeline({ dealId }: Props) {
-  const activities = useAppStore((s) =>
-    s.activities.filter((a) => a.dealId === dealId).sort(
+  const allActivities = useAppStore((s) => s.activities);
+  const activities = useMemo(() =>
+    allActivities.filter((a) => a.dealId === dealId).sort(
       (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-    )
+    ),
+    [allActivities, dealId]
   );
   const team = useAppStore((s) => s.team);
   const currentUserId = useAppStore((s) => s.currentUserId);
